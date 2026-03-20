@@ -14,7 +14,7 @@
 ^https?:\/\/mpaas1\.bosc\.cn(:\d+)?\/loggw data-type=text data="" status-code=200
 
 [Script]
-bosclife = type=http-response,pattern=^https?:\/\/mgs1\.bosc\.cn(:\d+)?\/mgw,requires-body=0,max-size=0,script-path=https://github.com/ifflagged/Seyoulala/raw/main/Modules/JS/zirawell/bosclife/mgw.js
+bosclife = type=http-response,pattern=^https?:\/\/mgs1\.bosc\.cn(:\d+)?\/mgw,requires-body=0,max-size=0,script-path=https://github.com/id002/Seyoulala_bak/raw/main/Modules/JS/zirawell/bosclife/mgw.js
 
 [MITM]
 hostname= %APPEND% mgs1.bosc.cn, mpaas1.bosc.cn

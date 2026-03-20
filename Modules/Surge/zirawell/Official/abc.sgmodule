@@ -16,7 +16,7 @@ DOMAIN, msmp.abchina.com.cn, REJECT, extended-matching, pre-matching
 DOMAIN, firefly.abchina.com.cn, REJECT, extended-matching, pre-matching
 
 [Script]
-abc = type=http-response,pattern=^https?:\/\/mobilepaas\.abchina\.com\.cn(:\d+)?\/mgw\.htm$,requires-body=0,max-size=0,script-path=https://github.com/ifflagged/Seyoulala/raw/main/Modules/JS/zirawell/abc/mgw.js
+abc = type=http-response,pattern=^https?:\/\/mobilepaas\.abchina\.com\.cn(:\d+)?\/mgw\.htm$,requires-body=0,max-size=0,script-path=https://github.com/id002/Seyoulala_bak/raw/main/Modules/JS/zirawell/abc/mgw.js
 
 [MITM]
 hostname= %APPEND% mobilepaas.abchina.com.cn

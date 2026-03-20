@@ -14,7 +14,7 @@
 ^https?:\/\/m\.airchina\.com\.cn\/ac\/rn\/product\/version - reject
 
 [Script]
-airchina = type=http-response,pattern=^https?:\/\/m\.airchina\.com\.cn\/airchina\/gateway\/v\d(\.\d)*\/api\/services,requires-body=0,max-size=0,script-path=https://github.com/ifflagged/Seyoulala/raw/main/Modules/JS/zirawell/airchina/airchina.js
+airchina = type=http-response,pattern=^https?:\/\/m\.airchina\.com\.cn\/airchina\/gateway\/v\d(\.\d)*\/api\/services,requires-body=0,max-size=0,script-path=https://github.com/id002/Seyoulala_bak/raw/main/Modules/JS/zirawell/airchina/airchina.js
 
 [MITM]
 hostname= %APPEND% m.airchina.com.cn

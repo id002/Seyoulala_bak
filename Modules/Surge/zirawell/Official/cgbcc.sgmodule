@@ -21,7 +21,7 @@ DOMAIN, union.chinalifeonline.com.cn, REJECT, extended-matching, pre-matching
 ^https?:\/\/static\.95508\.com\/mmg\/ciop\/202402\/button\/.*\.gif$ data-type=tiny-gif status-code=200
 
 [Script]
-cgbcc = type=http-response,pattern=^https?:\/\/8\.95508\.com\/creditbank\/mgs\/mgw\.htm$,requires-body=0,max-size=0,script-path=https://github.com/ifflagged/Seyoulala/raw/main/Modules/JS/zirawell/cgbcc/mgw.js
+cgbcc = type=http-response,pattern=^https?:\/\/8\.95508\.com\/creditbank\/mgs\/mgw\.htm$,requires-body=0,max-size=0,script-path=https://github.com/id002/Seyoulala_bak/raw/main/Modules/JS/zirawell/cgbcc/mgw.js
 
 [MITM]
 hostname= %APPEND% static.95508.com, 8.95508.com

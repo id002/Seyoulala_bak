@@ -12,15 +12,15 @@
 
 [Script]
 # 首页-底部弹窗
-peiyinxiu = type=http-response,pattern=^https?:\/\/iosapi\.peiyinxiu\.com\/Api\/Film\/GetConfigValue,requires-body=1,max-size=0,script-path=https://github.com/ifflagged/Seyoulala/raw/main/Modules/JS/zirawell/peiyinxiu/peiyinxiu.js
+peiyinxiu = type=http-response,pattern=^https?:\/\/iosapi\.peiyinxiu\.com\/Api\/Film\/GetConfigValue,requires-body=1,max-size=0,script-path=https://github.com/id002/Seyoulala_bak/raw/main/Modules/JS/zirawell/peiyinxiu/peiyinxiu.js
 # 首页-推荐-语聊横幅
-peiyinxiu = type=http-response,pattern=^https?:\/\/iosapi\.peiyinxiu\.com\/Api\/live\/LiveList,requires-body=1,max-size=0,script-path=https://github.com/ifflagged/Seyoulala/raw/main/Modules/JS/zirawell/peiyinxiu/peiyinxiu.js
+peiyinxiu = type=http-response,pattern=^https?:\/\/iosapi\.peiyinxiu\.com\/Api\/live\/LiveList,requires-body=1,max-size=0,script-path=https://github.com/id002/Seyoulala_bak/raw/main/Modules/JS/zirawell/peiyinxiu/peiyinxiu.js
 # 首页-推荐-语聊关注推荐
-peiyinxiu = type=http-response,pattern=^https?:\/\/iosapi\.peiyinxiu\.com\/api\/live\/FollowList,requires-body=1,max-size=0,script-path=https://github.com/ifflagged/Seyoulala/raw/main/Modules/JS/zirawell/peiyinxiu/peiyinxiu.js
+peiyinxiu = type=http-response,pattern=^https?:\/\/iosapi\.peiyinxiu\.com\/api\/live\/FollowList,requires-body=1,max-size=0,script-path=https://github.com/id002/Seyoulala_bak/raw/main/Modules/JS/zirawell/peiyinxiu/peiyinxiu.js
 # 首页-关注推荐
-peiyinxiu = type=http-response,pattern=^https?:\/\/iosapi\.peiyinxiu\.com\/Api\/Friend\/GetRecommendUsers,requires-body=1,max-size=0,script-path=https://github.com/ifflagged/Seyoulala/raw/main/Modules/JS/zirawell/peiyinxiu/peiyinxiu.js
+peiyinxiu = type=http-response,pattern=^https?:\/\/iosapi\.peiyinxiu\.com\/Api\/Friend\/GetRecommendUsers,requires-body=1,max-size=0,script-path=https://github.com/id002/Seyoulala_bak/raw/main/Modules/JS/zirawell/peiyinxiu/peiyinxiu.js
 # 消息-群聊推荐
-peiyinxiu = type=http-response,pattern=^https?:\/\/iosapi\.peiyinxiu\.com\/api\/Union\/HomeData,requires-body=1,max-size=0,script-path=https://github.com/ifflagged/Seyoulala/raw/main/Modules/JS/zirawell/peiyinxiu/peiyinxiu.js
+peiyinxiu = type=http-response,pattern=^https?:\/\/iosapi\.peiyinxiu\.com\/api\/Union\/HomeData,requires-body=1,max-size=0,script-path=https://github.com/id002/Seyoulala_bak/raw/main/Modules/JS/zirawell/peiyinxiu/peiyinxiu.js
 
 [MITM]
 hostname= %APPEND% iosapi.peiyinxiu.com
